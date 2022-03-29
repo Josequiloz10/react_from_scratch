@@ -6,12 +6,12 @@ const apellido = 'Quilarque';
 const nombreCompleto = `${nombre} ${apellido}`
 
 // @ts-ignore
-console.log(nombreCompleto);
+// console.log(nombreCompleto);
 
 // @ts-ignore
-function getSaludo(nombre){
+export function getSaludo(nombre = 'Coro'){
     return `Hola ${nombre}`;
 }
 
 // @ts-ignore
-console.log(`Este es un texto: ${getSaludo(nombreCompleto)}`)
+// console.log(`Este es un texto: ${getSaludo(nombreCompleto)}`)

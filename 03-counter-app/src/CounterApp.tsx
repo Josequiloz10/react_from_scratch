@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const CounterApp = ({value = 0} : {value:number}) => {
+const CounterApp = ({value = 10} : {value? :number}) => {
     const [counter, setCounter] = useState(value);
 
     const handleAdd = () => setCounter(counter + 1 );
